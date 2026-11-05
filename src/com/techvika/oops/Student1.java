@@ -7,7 +7,9 @@ public class Student1 {
     private String name;
     private int age;
 
-    void print(){
+   // String class =10;
+
+    void This(){
         System.out.println(id);
         System.out.println(name);
         System.out.println(age);
@@ -15,7 +17,7 @@ public class Student1 {
 
     public static void main(String[] args) {
         Student1 student1= new Student1();
-        student1.print();
+       // student1.print();
     }
 
 }
